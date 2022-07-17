@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "mezihelp-mob",
+    "slug": "mezihelp-mob",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
