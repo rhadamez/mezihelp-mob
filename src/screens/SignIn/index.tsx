@@ -1,20 +1,11 @@
 import { StatusBar } from 'expo-status-bar'
-import { StyleSheet, Text, View } from 'react-native'
+import { VStack, Heading } from 'native-base'
 
 export default function SignIn() {
 	return (
-		<View style={styles.container}>
-			<Text>SignIn!222</Text>
+		<VStack flex={1} alignItems='center' bg='gray.600' px={8} pt={24}>
+			<Heading color='gray.100' fontSize='xl' mt={20}>Acesse sua conta</Heading>
 			<StatusBar style="auto" />
-		</View>
+		</VStack>
 	)
 }
-
-const styles = StyleSheet.create({
-	container: {
-		flex: 1,
-		backgroundColor: '#fff',
-		alignItems: 'center',
-		justifyContent: 'center',
-	},
-})
