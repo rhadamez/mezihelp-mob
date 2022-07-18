@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native'
 export default function SignIn() {
 	return (
 		<View style={styles.container}>
-			<Text>SignIn!2</Text>
+			<Text>SignIn!222</Text>
 			<StatusBar style="auto" />
 		</View>
 	)
