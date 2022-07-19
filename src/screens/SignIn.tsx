@@ -3,11 +3,11 @@ import { VStack, Heading, Icon, useTheme } from 'native-base'
 import { Envelope, Key } from 'phosphor-react-native'
 import { useState } from 'react'
 
-import Logo from '../../assets/logo_primary.svg'
-import { Button } from '../../components/Button'
-import { Input } from '../../components/Input'
+import Logo from '../assets/logo_primary.svg'
+import { Button } from '../components/Button'
+import { Input } from '../components/Input'
 
-export default function SignIn() {
+export function SignIn() {
 	const { colors } = useTheme()
 	const [form, setForm] = useState({
 		email: '',
